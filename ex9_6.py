@@ -1,11 +1,13 @@
 class Restaurant():
 
-	def __init__(self, restarant_name, cuisine_type):
-		self.restarant_name = restarant_name
+	def __init__(self, restaurant_name, cuisine_type):
+		self.restaurant_name = restaurant_name
 		self.cuisine_type =  cuisine_type
 	def describe_restaurant(self):
-		print(self.restarant_name.title() + " restarant is the best in the city.")
-		print(self.cuisine_type.title() + " restarant offer goods at very low prices.")
+		print(self.restaurant_name.title() + " restarant offers the best " + self.cuisine_type.title() + " in the city." ) 
+
+	def open_restaurant(self):
+		print(self.restaurant_type.title() + " restarant is now open .")
 
 	
 
